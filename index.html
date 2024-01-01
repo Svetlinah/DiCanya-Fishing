@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bg">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles2.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Рибно стопанство "Диканя"</title>
+    </head>
+    <body>
+       <section class="header">
+        <nav>
+          <a href="index.html"><img src="images/logo 3 - Copy.png" alt="Logo"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a class="active" href="index.html">За нас</a></li>
+                <li><a href="fishing.html">Риболов</a></li>
+                <li><a href="gallery.html">Галерия</a></li>
+                <li><a href="products.html">Продукти</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <div class="text-box">
+        <h1>За нас</h1>
+        <p>Добре дошли в Рибно стопанство "Диканя"! Специализираме се в интензивното отглеждане на <br>шаран в клетки, предоставяйки висококачествена и устойчива риба.</p>
+        <a href="" class="hero-btn">Посетете ни за да научите повече</a>
+       </div>
+       </section>
+
+       <!----------course--------->
+
+
+
+
+
+
+
+
+
+       <!--------JavaScript for Toggle Menu------------>
+       <script>
+
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+            navLinks.style.right = "0";
+          }
+          function hideMenu(){
+            navLinks.style.right = "-200px";
+          }
+       </script>
+    </body>
+</html>
