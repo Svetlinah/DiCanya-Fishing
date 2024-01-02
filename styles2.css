@@ -140,5 +140,11 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
+
+    #navLinks {
+        position: fixed;
+        right: -100%;
+        top: 0;
+    }
 }
 
